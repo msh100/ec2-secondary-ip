@@ -11,5 +11,5 @@ Todo:
 ## Usage
 
 ```
-$ sudo ./ec2-bind-secondary.sh
+$ curl https://raw.githubusercontent.com/msh100/ec2-secondary-ip/master/ec2-bind-secondary.sh | sudo sh
 ```
