@@ -17,3 +17,6 @@ echo "auto eth0:0
 iface eth0:0 inet static
   address ${SECONDARY}
   netmask 255.255.255.0" > /etc/network/interfaces.d/eth0-0.cfg
+
+echo "Bringing up the new interface alias, eth0:0"
+ifup eth0:0
